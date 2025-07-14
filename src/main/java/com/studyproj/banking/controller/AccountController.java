@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-//todo: remove all modelmappers and refact returns to deal with status directly on service instead of controller
+//todo: move all modelmappers from controller to service and refact returns to deal with status directly on service instead of controller
 @Tag(name = "Account", description = "Account Controller")
 @RestController
 @RequestMapping("/account")
